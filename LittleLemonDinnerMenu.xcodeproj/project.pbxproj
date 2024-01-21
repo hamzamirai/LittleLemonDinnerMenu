@@ -7,21 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE43A9DB2B1C1A12009086A0 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE43A9DA2B1C1A12009086A0 /* MockData.swift */; };
+		DE43A9E32B1C1EB0009086A0 /* LittleLemonDinnerMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE43A9E22B1C1EB0009086A0 /* LittleLemonDinnerMenuTests.swift */; };
+		DE43A9EA2B1C1EE1009086A0 /* MenuItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE43A9E92B1C1EE1009086A0 /* MenuItemTests.swift */; };
 		DECF5E8F2B1A98590051C091 /* LittleLemonDinnerMenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECF5E8E2B1A98590051C091 /* LittleLemonDinnerMenuApp.swift */; };
-		DECF5E912B1A98590051C091 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECF5E902B1A98590051C091 /* ContentView.swift */; };
 		DECF5E932B1A985A0051C091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DECF5E922B1A985A0051C091 /* Assets.xcassets */; };
 		DECF5E962B1A985A0051C091 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DECF5E952B1A985A0051C091 /* Preview Assets.xcassets */; };
+		DECF5E9D2B1A98E60051C091 /* MenuItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECF5E9C2B1A98E60051C091 /* MenuItemsView.swift */; };
+		DECF5E9F2B1A99040051C091 /* MenuItemsOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECF5E9E2B1A99040051C091 /* MenuItemsOptionView.swift */; };
+		DECF5EA12B1A9B600051C091 /* MenuItemDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECF5EA02B1A9B600051C091 /* MenuItemDetailsView.swift */; };
+		DECF5EA82B1A9EFF0051C091 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECF5EA72B1A9EFF0051C091 /* MenuViewModel.swift */; };
+		DECF5EAA2B1A9F4E0051C091 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECF5EA92B1A9F4E0051C091 /* MenuItem.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DE43A9E42B1C1EB0009086A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DECF5E832B1A98590051C091 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DECF5E8A2B1A98590051C091;
+			remoteInfo = LittleLemonDinnerMenu;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		DE43A9DA2B1C1A12009086A0 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		DE43A9E02B1C1EB0009086A0 /* LittleLemonDinnerMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleLemonDinnerMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE43A9E22B1C1EB0009086A0 /* LittleLemonDinnerMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonDinnerMenuTests.swift; sourceTree = "<group>"; };
+		DE43A9E92B1C1EE1009086A0 /* MenuItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemTests.swift; sourceTree = "<group>"; };
 		DECF5E8B2B1A98590051C091 /* LittleLemonDinnerMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleLemonDinnerMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECF5E8E2B1A98590051C091 /* LittleLemonDinnerMenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonDinnerMenuApp.swift; sourceTree = "<group>"; };
-		DECF5E902B1A98590051C091 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DECF5E922B1A985A0051C091 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DECF5E952B1A985A0051C091 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DECF5E9C2B1A98E60051C091 /* MenuItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemsView.swift; sourceTree = "<group>"; };
+		DECF5E9E2B1A99040051C091 /* MenuItemsOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemsOptionView.swift; sourceTree = "<group>"; };
+		DECF5EA02B1A9B600051C091 /* MenuItemDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailsView.swift; sourceTree = "<group>"; };
+		DECF5EA72B1A9EFF0051C091 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		DECF5EA92B1A9F4E0051C091 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DE43A9DD2B1C1EB0009086A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DECF5E882B1A98590051C091 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,10 +64,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE43A9D92B1C19C6009086A0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DE43A9DA2B1C1A12009086A0 /* MockData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DE43A9E12B1C1EB0009086A0 /* LittleLemonDinnerMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE43A9E22B1C1EB0009086A0 /* LittleLemonDinnerMenuTests.swift */,
+				DE43A9E92B1C1EE1009086A0 /* MenuItemTests.swift */,
+			);
+			path = LittleLemonDinnerMenuTests;
+			sourceTree = "<group>";
+		};
+		DE43A9EB2B1C1F25009086A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DECF5E9C2B1A98E60051C091 /* MenuItemsView.swift */,
+				DECF5E9E2B1A99040051C091 /* MenuItemsOptionView.swift */,
+				DECF5EA02B1A9B600051C091 /* MenuItemDetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		DECF5E822B1A98590051C091 = {
 			isa = PBXGroup;
 			children = (
 				DECF5E8D2B1A98590051C091 /* LittleLemonDinnerMenu */,
+				DE43A9E12B1C1EB0009086A0 /* LittleLemonDinnerMenuTests */,
 				DECF5E8C2B1A98590051C091 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				DECF5E8B2B1A98590051C091 /* LittleLemonDinnerMenu.app */,
+				DE43A9E02B1C1EB0009086A0 /* LittleLemonDinnerMenuTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,7 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				DECF5E8E2B1A98590051C091 /* LittleLemonDinnerMenuApp.swift */,
-				DECF5E902B1A98590051C091 /* ContentView.swift */,
+				DECF5EA22B1A9C780051C091 /* Shared */,
+				DE43A9EB2B1C1F25009086A0 /* Views */,
 				DECF5E922B1A985A0051C091 /* Assets.xcassets */,
 				DECF5E942B1A985A0051C091 /* Preview Content */,
 			);
@@ -67,9 +129,53 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DECF5EA22B1A9C780051C091 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DE43A9D92B1C19C6009086A0 /* Data */,
+				DECF5EA42B1A9D250051C091 /* Observables */,
+				DECF5EA32B1A9D1E0051C091 /* Models */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DECF5EA32B1A9D1E0051C091 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DECF5EA92B1A9F4E0051C091 /* MenuItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DECF5EA42B1A9D250051C091 /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				DECF5EA72B1A9EFF0051C091 /* MenuViewModel.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DE43A9DF2B1C1EB0009086A0 /* LittleLemonDinnerMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE43A9E62B1C1EB0009086A0 /* Build configuration list for PBXNativeTarget "LittleLemonDinnerMenuTests" */;
+			buildPhases = (
+				DE43A9DC2B1C1EB0009086A0 /* Sources */,
+				DE43A9DD2B1C1EB0009086A0 /* Frameworks */,
+				DE43A9DE2B1C1EB0009086A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE43A9E52B1C1EB0009086A0 /* PBXTargetDependency */,
+			);
+			name = LittleLemonDinnerMenuTests;
+			productName = LittleLemonDinnerMenuTests;
+			productReference = DE43A9E02B1C1EB0009086A0 /* LittleLemonDinnerMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		DECF5E8A2B1A98590051C091 /* LittleLemonDinnerMenu */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DECF5E992B1A985A0051C091 /* Build configuration list for PBXNativeTarget "LittleLemonDinnerMenu" */;
@@ -97,6 +203,10 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					DE43A9DF2B1C1EB0009086A0 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = DECF5E8A2B1A98590051C091;
+					};
 					DECF5E8A2B1A98590051C091 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
@@ -116,11 +226,19 @@
 			projectRoot = "";
 			targets = (
 				DECF5E8A2B1A98590051C091 /* LittleLemonDinnerMenu */,
+				DE43A9DF2B1C1EB0009086A0 /* LittleLemonDinnerMenuTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DE43A9DE2B1C1EB0009086A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DECF5E892B1A98590051C091 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,18 +251,76 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DE43A9DC2B1C1EB0009086A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE43A9E32B1C1EB0009086A0 /* LittleLemonDinnerMenuTests.swift in Sources */,
+				DE43A9EA2B1C1EE1009086A0 /* MenuItemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DECF5E872B1A98590051C091 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DECF5E912B1A98590051C091 /* ContentView.swift in Sources */,
+				DECF5E9D2B1A98E60051C091 /* MenuItemsView.swift in Sources */,
 				DECF5E8F2B1A98590051C091 /* LittleLemonDinnerMenuApp.swift in Sources */,
+				DECF5E9F2B1A99040051C091 /* MenuItemsOptionView.swift in Sources */,
+				DECF5EAA2B1A9F4E0051C091 /* MenuItem.swift in Sources */,
+				DE43A9DB2B1C1A12009086A0 /* MockData.swift in Sources */,
+				DECF5EA82B1A9EFF0051C091 /* MenuViewModel.swift in Sources */,
+				DECF5EA12B1A9B600051C091 /* MenuItemDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		DE43A9E52B1C1EB0009086A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DECF5E8A2B1A98590051C091 /* LittleLemonDinnerMenu */;
+			targetProxy = DE43A9E42B1C1EB0009086A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		DE43A9E72B1C1EB0009086A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 647HAPRW76;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mirai.LittleLemonDinnerMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleLemonDinnerMenu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LittleLemonDinnerMenu";
+			};
+			name = Debug;
+		};
+		DE43A9E82B1C1EB0009086A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 647HAPRW76;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mirai.LittleLemonDinnerMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleLemonDinnerMenu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LittleLemonDinnerMenu";
+			};
+			name = Release;
+		};
 		DECF5E972B1A985A0051C091 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -325,6 +501,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DE43A9E62B1C1EB0009086A0 /* Build configuration list for PBXNativeTarget "LittleLemonDinnerMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE43A9E72B1C1EB0009086A0 /* Debug */,
+				DE43A9E82B1C1EB0009086A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DECF5E862B1A98590051C091 /* Build configuration list for PBXProject "LittleLemonDinnerMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
