@@ -20,15 +20,30 @@ struct MenuItemDetailsView: View {
                     .frame(width: 300, height: 300)
                     .cornerRadius(10)
                     .padding(.bottom, 20)
+                    
+                HStack {
+                    Text("Price: ")
+                        .font(.headline)
+                    Text("$\(item.price, specifier: "%.2f")")
+                        .font(.subheadline)
+                }
+
+                HStack {
+                    Text("Ordered: ")
+                        .font(.headline)
+                    
+                    Text("\(item.ordersCount) times")
+                        .font(.subheadline)
+                }
                 
-                Text("Price: $\(item.price, specifier: "%.2f")")
-                    .font(.subheadline)
-
-                Text("Ordered: \(item.ordersCount) times")
-                    .font(.subheadline)
-
-                Text("Ingredients: \(item.ingredients.map { $0.rawValue }.joined(separator: ", "))")
-                    .font(.subheadline)
+                if !item.ingredients.isEmpty {
+                    HStack {
+                        Text("Ingredients: ")
+                            .font(.headline)
+                        Text("\(item.ingredients.map { $0.rawValue }.joined(separator: ", ")).")
+                            .font(.subheadline)
+                    }
+                }
             }
             .padding()
         }
